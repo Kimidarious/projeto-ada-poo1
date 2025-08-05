@@ -1,3 +1,5 @@
+package Model;
+
 /**
 * Classe abstrata que representa uma pessoa no sistema de catálogo de animes
 *Serve como base para Seiyuu (dublador) e Diretor, implementando atributos  e métodos comuns
