@@ -8,7 +8,7 @@ Model:
 |   |   ├── Atributos:
 |   |   |   ├── nome
 |   |   |   ├── nacionalidade
-|   |   |   └── bibliografia
+|   |   |   └── biografia
 |   |   ├── Métodos
 |   |   |   ├── Construtores
 |   |   |   └── Setters and Getters
