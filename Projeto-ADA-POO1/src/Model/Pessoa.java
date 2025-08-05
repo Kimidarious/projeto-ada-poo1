@@ -58,7 +58,7 @@ public abstract class Pessoa {
         return String.format("%s  - %s (%s)",
                              nome,
                              getPapel(),
-                             nacionalidade != null ? nacionalidade : "N/A";
+                             nacionalidade != null ? nacionalidade : "N/A");
     }
 
     @Override
