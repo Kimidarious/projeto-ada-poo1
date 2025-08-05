@@ -1,5 +1,7 @@
 package Model;
 
+import java.time.LocalDate;
+
 /**
 * Classe abstrata que representa uma pessoa no sistema de catálogo de animes
 *Serve como base para Seiyuu (dublador) e Diretor, implementando atributos  e métodos comuns
@@ -9,21 +11,13 @@ package Model;
 
 public abstract class Pessoa {
     private String nome;
-    private String nomeJapones;
-    private String dataNascimento;
     private String nacionalidade;
     private String biografia;
 
-    public Pessoa(String nome, String nomeJapones, String dataNascimento, String nacionalidade, String biografia) {
+    public Pessoa(String nome, String nacionalidade, String biografia) {
         this.nome = nome;
-        this.nomeJapones = nomeJapones;
-        this.dataNascimento = dataNascimento;
         this.nacionalidade = nacionalidade;
         this.biografia = biografia;
-    }
-
-    public Pessoa(String nome, String dataNascimento) {
-        this(nome, "", dataNascimento, "", "");
     }
 
     public String getNome() {
@@ -31,23 +25,9 @@ public abstract class Pessoa {
     }
 
     public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public String getNomeJapones() {
-        return nomeJapones;
-    }
-
-    public void setNomeJapones(String nomeJapones) {
-        this.nomeJapones = nomeJapones;
-    }
-
-    public String getDataNascimento() {
-        return dataNascimento;
-    }
-
-    public void setDataNascimento(String dataNascimento) {
-        this.dataNascimento = dataNascimento;
+        if (nome != null || !nome.trim().isEmpty()) {
+            this.nome = nome.trim();
+        }
     }
 
     public String getNacionalidade() {
@@ -68,30 +48,17 @@ public abstract class Pessoa {
 
     /**
      * Método abstrato que deve ser implementado pelas classes filhas
-     * para retornar o tipo especifico de pessoa (Seiyuu, Diretor, etc)
-     * @return tipo de pessoa
+     * para retornar o papel especifico de pessoa no anime
+     * @return String descrevendo o pessoal da pessoa
      */
-    public abstract String getTipo();
-
-    /**
-     * Método abstrato para exibir informações especificas da pessoa
-     * Implementação varia de acordo com o tipo(Seiyuu, diretor)
-     * @return informações especificas formatadas
-     */
-    public abstract String getInformacoesEspecificas();
+    public abstract String getPapel();
 
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder();
-        sb.append("Nome: ").append(nome);
-        if (!nomeJapones.isEmpty()) {
-            sb.append(" (").append(nomeJapones).append(")");
-        }
-        sb.append("\nData de nascimento: ").append(dataNascimento)
-          .append("\nNacionalidade: ").append(nacionalidade)
-          .append("\nBiografia: ").append(biografia)
-          .append("\n").append(getInformacoesEspecificas());
-        return sb.toString();
+        return String.format("%s  - %s (%s)",
+                             nome,
+                             getPapel(),
+                             nacionalidade != null ? nacionalidade : "N/A";
     }
 
     @Override
@@ -100,12 +67,12 @@ public abstract class Pessoa {
         if (obj == null || getClass() != obj.getClass()) return false;
 
         Pessoa pessoa = (Pessoa) obj;
-        return nome.equalsIgnoreCase(pessoa.nome) &&
-                dataNascimento.equalsIgnoreCase(pessoa.dataNascimento);
+        return nome != null ? nome.equalsIgnoreCase(pessoa.nome) :
+                                pessoa.nome == null;
     }
 
     @Override
     public int hashCode() {
-        return nome.toLowerCase().hashCode() + dataNascimento.hashCode();
+        return nome != null ? nome.toLowerCase().hashCode() : 0;
     }
 }
