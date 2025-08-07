@@ -6,7 +6,7 @@ import interfaceusuario.InterfaceUsuario;
 public class Main {
     public static void main(String[] args) {
         CatalogoAnimes catalogo = new CatalogoAnimes();
-        GerenciadorDados.carregarDadosExemplo(catalogo);
+        CatalogoExemplo.carregarDadosExemplo(catalogo);
         InterfaceUsuario interfaceUsuario = new InterfaceUsuario(catalogo);
         interfaceUsuario.executar();
     }
