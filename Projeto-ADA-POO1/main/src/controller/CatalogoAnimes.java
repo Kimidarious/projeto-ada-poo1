@@ -1,6 +1,7 @@
 package controller;
 
 import java.util.ArrayList;
+import model.*;
 
 public class CatalogoAnimes {
     private ArrayList<Anime> animes;
@@ -31,8 +32,8 @@ public class CatalogoAnimes {
     }
 
     public void adicionarSeiyu(Dublador seiyu) {
-        if (!seiyus.contains(dublador)) {
-            seiyus.add(dublador);
+        if (!seiyus.contains(seiyu)) {
+            seiyus.add(seiyu);
         }
     }
 
@@ -49,15 +50,15 @@ public class CatalogoAnimes {
     }
 
     // Associação
-    public void associarDubladorAoFilme(Dublador dublador, Filme filme) {
-        if (filmes.contains(filme) && atores.contains(ator)) {
-            filme.addDublador(ator);
+    public void associarDubladorAoFilme(Dublador dublador, Anime anime) {
+        if (animes.contains(anime) && dubladores.contains(dublador)) {
+            anime.adicionarDublador(dublador);
         }
     }
 
     public void associarSeiyuAoFilme(Dublador seiyu, Anime anime) {
         if (animes.contains(anime) && seiyus.contains(seiyu)) {
-            anime.addSeiyu(seiyu);
+            anime.adicionarDublador(seiyu);
         }
     }
 
