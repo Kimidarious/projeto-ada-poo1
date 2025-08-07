@@ -1,6 +1,4 @@
-package Model;
-
-import java.time.LocalDate;
+package model;
 
 /**
 * Classe abstrata que representa uma pessoa no sistema de catálogo de animes
