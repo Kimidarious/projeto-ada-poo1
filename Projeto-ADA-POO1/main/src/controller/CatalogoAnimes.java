@@ -1,5 +1,6 @@
 package controller;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import model.*;
 
@@ -94,4 +95,49 @@ public class CatalogoAnimes {
             anime.setEstudio(estudio);
         }
     }
+
+    // Carregar dados salvos pelo gerenciador de dados
+    public void carregarDados(ArrayList<Anime> animes, ArrayList<Dublador> dubladores, ArrayList<Dublador> seiyus,
+                              ArrayList<Diretor> diretores, ArrayList<Estudio> estudios){
+        this.animes = animes;
+        this.dubladores = dubladores;
+        this.seiyus = seiyus;
+        this.diretores = diretores;
+        this.estudios = estudios;
+
+    }
+
+    public static void main(String[] args) {
+        CatalogoAnimes catalogoAnimes = new CatalogoAnimes();
+        Estudio TMS = new Estudio("TMS");
+
+        Anime akira = new Anime("Akira", LocalDate.of(1988,7,16),700000000,
+                "primeira animação japonesa a ser exibida em cinemas brasileiros como um filme mainstream",
+                "ficção científica",1);
+        catalogoAnimes.adicionarFilme(akira);
+        catalogoAnimes.adicionarEstudio(TMS);
+
+        Dublador dublador = new Dublador("Wendel Bezerra", "brasileiro", "", "",
+                "Álamo");
+
+        Dublador seiyu = new Dublador("Mitsuo Iwata", "japonês", "", "",
+                "");
+
+        catalogoAnimes.adicionarDublador(dublador);
+        catalogoAnimes.adicionarDublador(seiyu);
+
+        System.out.println(catalogoAnimes.getAnimes().toString());
+        System.out.println(dublador.toString());
+
+
+        catalogoAnimes.associarEstudioAoFilme(TMS, akira);
+        catalogoAnimes.associarDubladorAoFilme(dublador, akira);
+        catalogoAnimes.associarDubladorAoFilme(seiyu, akira);
+        System.out.println(catalogoAnimes.getAnimes().toString());
+        System.out.println(akira.getElenco());
+
+        GerenciadorDados gerenciador = new GerenciadorDados(catalogoAnimes);
+        gerenciador.salvarDados("dados.txt");
+    }
 }
+
