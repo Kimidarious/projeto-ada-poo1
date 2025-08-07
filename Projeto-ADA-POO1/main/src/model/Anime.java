@@ -39,6 +39,19 @@ public class Anime {
         this.nota = 0.0;
     }
 
+    public Anime(String nome, LocalDate dataLancamento, double orcamento,
+                 String descricao, String genero, int episodios) {
+        this.nome = nome;
+        this.dataLancamento = dataLancamento;
+        this.orcamento = orcamento;
+        this.descricao = descricao;
+        this.genero = genero;
+        this.episodios = episodios;
+        this.elenco = new ArrayList<>();
+        this.status = "Em exibição";
+        this.nota = 0.0;
+    }
+
     public String getNome() {
         return nome;
     }
