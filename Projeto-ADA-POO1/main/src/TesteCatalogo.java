@@ -7,7 +7,7 @@ public class TesteCatalogo {
         CatalogoAnimes catalogo = new CatalogoAnimes();
         CatalogoExemplo.carregarDadosExemplo(catalogo);
         GerenciadorDados gerenciador = new GerenciadorDados(catalogo);
-
+        gerenciador.salvarDados("Exemplo.txt");
         catalogo.getAnimes().forEach(System.out::println);
     }
 }
