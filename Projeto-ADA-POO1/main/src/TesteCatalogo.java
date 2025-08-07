@@ -1,13 +1,11 @@
-// Main.java
+// Classe de Teste (pode ser TesteCatalogo.java)
 import controller.CatalogoAnimes;
 import controller.GerenciadorDados;
-import interfaceusuario.InterfaceUsuario;
 
-public class Main {
+public class TesteCatalogo {
     public static void main(String[] args) {
         CatalogoAnimes catalogo = new CatalogoAnimes();
         GerenciadorDados.carregarDadosExemplo(catalogo);
-        InterfaceUsuario interfaceUsuario = new InterfaceUsuario(catalogo);
-        interfaceUsuario.executar();
+        catalogo.getAnimes().forEach(System.out::println);
     }
 }

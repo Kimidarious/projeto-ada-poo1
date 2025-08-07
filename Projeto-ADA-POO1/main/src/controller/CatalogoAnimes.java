@@ -18,6 +18,27 @@ public class CatalogoAnimes {
         estudios = new ArrayList<>();
     }
 
+    // Getters
+    public ArrayList<Anime> getAnimes() {
+        return animes;
+    }
+
+    public ArrayList<Dublador> getDubladores() {
+        return dubladores;
+    }
+
+    public ArrayList<Dublador> getSeiyus() {
+        return seiyus;
+    }
+
+    public ArrayList<Diretor> getDiretores() {
+        return diretores;
+    }
+
+    public ArrayList<Estudio> getEstudios() {
+        return estudios;
+    }
+
     // Métodos de cadastro
     public void adicionarFilme(Anime anime) {
         if (!animes.contains(anime)) {
@@ -68,10 +89,9 @@ public class CatalogoAnimes {
         }
     }
 
-    public void associarEstudioAoFilme(Estudio estudio, Anime anime){
+    public void associarEstudioAoFilme(Estudio estudio, Anime anime) {
         if (animes.contains(anime) && estudios.contains(estudio)) {
             anime.setEstudio(estudio);
         }
     }
 }
-
