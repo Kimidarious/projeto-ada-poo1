@@ -20,13 +20,13 @@ public class Anime {
     private List<Dublador> elenco;
     private String genero;
     private int episodios;
-    private String estudio;
+    private Estudio estudio;
     private String status;
     private double nota;
 
     public Anime(String nome, LocalDate dataLancamento, double orcamento,
                  String descricao, String genero, int episodios,
-                 String estudio) {
+                 Estudio estudio) {
         this.nome = nome;
         this.dataLancamento = dataLancamento;
         this.orcamento = orcamento;
@@ -109,11 +109,11 @@ public class Anime {
         }
     }
 
-    public String getEstudio() {
+    public Estudio getEstudio() {
         return estudio;
     }
 
-    public void setEstudio(String estudio) {
+    public void setEstudio(Estudio estudio) {
         this.estudio = estudio;
     }
 
