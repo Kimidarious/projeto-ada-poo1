@@ -1,5 +1,7 @@
 package model;
 
+import java.io.Serializable;
+
 /**
 * Classe abstrata que representa uma pessoa no sistema de catálogo de animes
 *Serve como base para Seiyuu (dublador) e Diretor, implementando atributos  e métodos comuns
@@ -7,7 +9,7 @@ package model;
  * @version 1.0.0
  */
 
-public abstract class Pessoa {
+public abstract class Pessoa implements Serializable {
     private String nome;
     private String nacionalidade;
     private String biografia;

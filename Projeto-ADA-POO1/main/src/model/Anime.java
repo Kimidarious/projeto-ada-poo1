@@ -1,5 +1,6 @@
 package model;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
@@ -11,7 +12,7 @@ import java.util.List;
  * @Author Eliakim Simões
  * @version 1.0.0
  */
-public class Anime {
+public class Anime implements Serializable {
     private String nome;
     private LocalDate dataLancamento;
     private double orcamento;

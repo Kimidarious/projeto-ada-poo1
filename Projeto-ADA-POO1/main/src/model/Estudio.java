@@ -1,8 +1,9 @@
 package model;
 
+import java.io.Serializable;
 import java.time.format.DateTimeFormatter;
 
-public class Estudio {
+public class Estudio implements Serializable {
 
     private final String nome;
 
