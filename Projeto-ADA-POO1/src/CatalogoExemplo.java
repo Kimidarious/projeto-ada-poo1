@@ -2,7 +2,6 @@ import model.*;
 import controller.*;
 import java.time.LocalDate;
 
-
 public class CatalogoExemplo {
     public static void carregarDadosExemplo(CatalogoAnimes catalogo) {
 
@@ -24,6 +23,8 @@ public class CatalogoExemplo {
         Diretor araki = new Diretor("Tetsurou Araki", "Japão", "Diretor de Attack on Titan", "Ação", "Wit Studio", 20);
         Diretor hosoda = new Diretor("Mamoru Hosoda", "Japão", "Mistura ficção científica e emoção.", "Sci-Fi", "Madhouse", 25);
 
+
+
         catalogo.adicionarDiretor(miyazaki);
         catalogo.adicionarDiretor(araki);
         catalogo.adicionarDiretor(hosoda);
@@ -42,7 +43,7 @@ public class CatalogoExemplo {
         catalogo.adicionarDublador(yuki);
         catalogo.adicionarDublador(romi);
 
-        // Animes (10 exemplos)
+        // Animes
         Anime chihiro = new Anime("A Viagem de Chihiro", LocalDate.of(2001, 7, 20), 19000000,
                 "Uma garota entra em um mundo mágico para salvar seus pais.", "Fantasia", 1, ghibli);
         chihiro.setNota(9.5);
@@ -83,7 +84,7 @@ public class CatalogoExemplo {
                 "Jovem amaldiçoada encontra refúgio com mago excêntrico.", "Fantasia", 1, ghibli);
         howl.setNota(8.8);
 
-        // Adicionar ao catálogo
+        // Adiciona os animes ao catálogo
         catalogo.adicionarFilme(chihiro);
         catalogo.adicionarFilme(attackOnTitan);
         catalogo.adicionarFilme(fullmetal);
@@ -95,7 +96,7 @@ public class CatalogoExemplo {
         catalogo.adicionarFilme(deathNote);
         catalogo.adicionarFilme(howl);
 
-        // Associações (para alguns animes)
+        // Agora sim, faz as associações
         catalogo.associarDiretorAoFilme(miyazaki, chihiro);
         catalogo.associarDiretorAoFilme(miyazaki, howl);
         catalogo.associarDiretorAoFilme(araki, attackOnTitan);
