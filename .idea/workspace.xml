@@ -4,31 +4,67 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d15ccb8-a0d6-4742-af3b-836175ec5bb4" name="Changes" comment="" />
+    <list default="true" id="9d15ccb8-a0d6-4742-af3b-836175ec5bb4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projeto-ADA-POO1/src/test/controller/CatalogoAnimesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projeto-ADA-POO1/src/test/controller/GerenciadorDadosTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto-ADA-POO1/Exemplo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Exemplo.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto-ADA-POO1/Projeto-ADA-POO1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto-ADA-POO1/Projeto-ADA-POO1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto-ADA-POO1/dados.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dados.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto-ADA-POO1/src/CatalogoExemplo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto-ADA-POO1/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto-ADA-POO1/src/TesteCatalogo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto-ADA-POO1/src/controller/CatalogoAnimes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto-ADA-POO1/src/controller/GerenciadorDados.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto-ADA-POO1/src/interfaceusuario/InterfaceUsuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto-ADA-POO1/src/model/Anime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto-ADA-POO1/src/model/Diretor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto-ADA-POO1/src/model/Dublador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto-ADA-POO1/src/model/Estudio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto-ADA-POO1/src/model/Pessoa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto-ADA-POO1/src/sistema/SistemaBusca.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto-ada-poo1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/projeto-ada-poo1.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "RLdAB"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;RLdAB&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Kimidarious/projeto-ada-poo1.git",
-    "accountId": "1fa93e8a-9b49-41b5-ab2e-5effd12cf454"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Kimidarious/projeto-ada-poo1.git&quot;,
+    &quot;accountId&quot;: &quot;5db4192f-16b1-4560-9a57-24a1f297b660&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 8
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="30w9yiOvGi9mJAtGSXQWt4kZiG3" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -36,27 +72,152 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CatalogoAnimes.executor": "Run",
+    "Application.GerenciadorDados.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "true",
+    "JUnit.CatalogoAnimesTest.associarDiretorAoFilme.executor": "Run",
+    "JUnit.CatalogoAnimesTest.associarDubladorAoFilme.executor": "Run",
+    "JUnit.CatalogoAnimesTest.associarEstudioAoFilme.executor": "Run",
+    "JUnit.CatalogoAnimesTest.associarSeiyuAoFilme.executor": "Run",
+    "JUnit.CatalogoAnimesTest.carregarDados.executor": "Run",
+    "JUnit.GerenciadorDadosTest.carregarDados.executor": "Run",
+    "JUnit.GerenciadorDadosTest.salvarDados.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "teste",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\fcdmo\IdeaProjects\projeto-ada-poo1" />
+      <recent name="C:\Users\fcdmo\IdeaProjects\projeto-ada-poo1\Projeto-ADA-POO1" />
+      <recent name="C:\Users\fcdmo\IdeaProjects\projeto-ada-poo1\Projeto-ADA-POO1\src" />
+      <recent name="C:\Users\fcdmo\IdeaProjects\projeto-ada-poo1\Projeto-ADA-POO1\src\production" />
+      <recent name="C:\Users\fcdmo\IdeaProjects\projeto-ada-poo1\Projeto-ADA-POO1\src\main" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CatalogoAnimesTest.associarSeiyuAoFilme">
+    <configuration name="CatalogoAnimesTest.associarDiretorAoFilme" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="projeto-ada-poo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="controller" />
+      <option name="MAIN_CLASS_NAME" value="controller.CatalogoAnimesTest" />
+      <option name="METHOD_NAME" value="associarDiretorAoFilme" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+    <configuration name="CatalogoAnimesTest.associarDubladorAoFilme" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="projeto-ada-poo1" />
-      <option name="filePath" />
-      <method v="2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="controller" />
+      <option name="MAIN_CLASS_NAME" value="controller.CatalogoAnimesTest" />
+      <option name="METHOD_NAME" value="associarDubladorAoFilme" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
+    <configuration name="CatalogoAnimesTest.associarEstudioAoFilme" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="projeto-ada-poo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="controller" />
+      <option name="MAIN_CLASS_NAME" value="controller.CatalogoAnimesTest" />
+      <option name="METHOD_NAME" value="associarEstudioAoFilme" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CatalogoAnimesTest.associarSeiyuAoFilme" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="projeto-ada-poo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="controller" />
+      <option name="MAIN_CLASS_NAME" value="controller.CatalogoAnimesTest" />
+      <option name="METHOD_NAME" value="associarSeiyuAoFilme" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CatalogoAnimesTest.carregarDados" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="projeto-ada-poo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="controller" />
+      <option name="MAIN_CLASS_NAME" value="controller.CatalogoAnimesTest" />
+      <option name="METHOD_NAME" value="carregarDados" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CatalogoAnimesTest.associarSeiyuAoFilme" />
+        <item itemvalue="JUnit.CatalogoAnimesTest.associarDiretorAoFilme" />
+        <item itemvalue="JUnit.CatalogoAnimesTest.associarEstudioAoFilme" />
+        <item itemvalue="JUnit.CatalogoAnimesTest.carregarDados" />
+        <item itemvalue="JUnit.CatalogoAnimesTest.associarDubladorAoFilme" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.27812.49" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.27812.49" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -65,7 +226,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1754528025985</updated>
+      <workItem from="1754678578932" duration="1302000" />
+      <workItem from="1754679913337" duration="5686000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.io.FileNotFoundException" package="java.io" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
