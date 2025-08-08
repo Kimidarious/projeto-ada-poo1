@@ -4,29 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d15ccb8-a0d6-4742-af3b-836175ec5bb4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projeto-ADA-POO1/src/test/controller/CatalogoAnimesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projeto-ADA-POO1/src/test/controller/GerenciadorDadosTest.java" afterDir="false" />
+    <list default="true" id="9d15ccb8-a0d6-4742-af3b-836175ec5bb4" name="Changes" comment="Mudei a organização para criar as classes de teste">
+      <change afterPath="$PROJECT_DIR$/Projeto-ADA-POO1/src/test/model/EstudioTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto-ADA-POO1/Exemplo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Exemplo.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto-ADA-POO1/Projeto-ADA-POO1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto-ADA-POO1/Projeto-ADA-POO1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto-ADA-POO1/dados.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dados.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto-ADA-POO1/src/CatalogoExemplo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto-ADA-POO1/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto-ADA-POO1/src/TesteCatalogo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto-ADA-POO1/src/controller/CatalogoAnimes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto-ADA-POO1/src/controller/GerenciadorDados.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto-ADA-POO1/src/interfaceusuario/InterfaceUsuario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto-ADA-POO1/src/model/Anime.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto-ADA-POO1/src/model/Diretor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto-ADA-POO1/src/model/Dublador.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto-ADA-POO1/src/model/Estudio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto-ADA-POO1/src/model/Pessoa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto-ADA-POO1/src/sistema/SistemaBusca.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto-ada-poo1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/projeto-ada-poo1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto-ADA-POO1/src/production/projeto-ada-poo1/CatalogoExemplo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto-ADA-POO1/src/production/projeto-ada-poo1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto-ADA-POO1/src/production/projeto-ada-poo1/TesteCatalogo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto-ADA-POO1/src/production/projeto-ada-poo1/controller/CatalogoAnimes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto-ADA-POO1/src/production/projeto-ada-poo1/controller/GerenciadorDados.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto-ADA-POO1/src/production/projeto-ada-poo1/interfaceusuario/InterfaceUsuario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto-ADA-POO1/src/production/projeto-ada-poo1/main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto-ADA-POO1/src/production/projeto-ada-poo1/model/Anime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto-ADA-POO1/src/production/projeto-ada-poo1/model/Diretor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto-ADA-POO1/src/production/projeto-ada-poo1/model/Dublador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto-ADA-POO1/src/production/projeto-ada-poo1/model/Estudio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto-ADA-POO1/src/production/projeto-ada-poo1/model/Pessoa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto-ADA-POO1/src/production/projeto-ada-poo1/sistema/SistemaBusca.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto-ADA-POO1/src/test/projeto-ada-poo1/controller/CatalogoAnimesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto-ADA-POO1/src/test/projeto-ada-poo1/controller/CatalogoAnimesTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +75,7 @@
     "JUnit.CatalogoAnimesTest.associarEstudioAoFilme.executor": "Run",
     "JUnit.CatalogoAnimesTest.associarSeiyuAoFilme.executor": "Run",
     "JUnit.CatalogoAnimesTest.carregarDados.executor": "Run",
+    "JUnit.EstudioTest.getNome.executor": "Run",
     "JUnit.GerenciadorDadosTest.carregarDados.executor": "Run",
     "JUnit.GerenciadorDadosTest.salvarDados.executor": "Run",
     "Repository.Attach.Annotations": "false",
@@ -102,6 +98,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -117,10 +114,11 @@
       <recent name="C:\Users\fcdmo\IdeaProjects\projeto-ada-poo1\Projeto-ADA-POO1\src\main" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="model" />
       <recent name="controller" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CatalogoAnimesTest.associarSeiyuAoFilme">
+  <component name="RunManager" selected="JUnit.EstudioTest.getNome">
     <configuration name="CatalogoAnimesTest.associarDiretorAoFilme" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="projeto-ada-poo1" />
       <extension name="coverage">
@@ -132,22 +130,6 @@
       <option name="PACKAGE_NAME" value="controller" />
       <option name="MAIN_CLASS_NAME" value="controller.CatalogoAnimesTest" />
       <option name="METHOD_NAME" value="associarDiretorAoFilme" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CatalogoAnimesTest.associarDubladorAoFilme" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="projeto-ada-poo1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="controller" />
-      <option name="MAIN_CLASS_NAME" value="controller.CatalogoAnimesTest" />
-      <option name="METHOD_NAME" value="associarDubladorAoFilme" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -201,13 +183,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EstudioTest.getNome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="projeto-ada-poo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.EstudioTest" />
+      <option name="METHOD_NAME" value="getNome" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EstudioTest.getNome" />
         <item itemvalue="JUnit.CatalogoAnimesTest.associarSeiyuAoFilme" />
         <item itemvalue="JUnit.CatalogoAnimesTest.associarDiretorAoFilme" />
         <item itemvalue="JUnit.CatalogoAnimesTest.associarEstudioAoFilme" />
         <item itemvalue="JUnit.CatalogoAnimesTest.carregarDados" />
-        <item itemvalue="JUnit.CatalogoAnimesTest.associarDubladorAoFilme" />
       </list>
     </recent_temporary>
   </component>
@@ -227,12 +225,33 @@
       <option name="presentableId" value="Default" />
       <updated>1754528025985</updated>
       <workItem from="1754678578932" duration="1302000" />
-      <workItem from="1754679913337" duration="5686000" />
+      <workItem from="1754679913337" duration="7562000" />
     </task>
+    <task id="LOCAL-00001" summary="Mudei a organização para criar as classes de teste">
+      <option name="closed" value="true" />
+      <created>1754685710431</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1754685710431</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Mudei a organização para criar as classes de teste">
+      <option name="closed" value="true" />
+      <created>1754685813463</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1754685813463</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Mudei a organização para criar as classes de teste" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mudei a organização para criar as classes de teste" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
