@@ -27,7 +27,7 @@ Obs: Não utilizamos JavaFX ou Swing por escolha do grupo. Toda a interação ac
 
 2. Abra no IntelliJ ou outra IDE Java.
 
-3. Execute a classe Main no pacote raiz (src/Main.java).
+3. Execute a classe Main no pacote raiz (src/main/Main.java).
 
 4. O sistema será executado no console com menu interativo.
 
@@ -35,13 +35,15 @@ Os dados são salvos e carregados de arquivos .txt ou serializados via ObjectOut
 
 ## Estrutura de Pacotes
 
-src/
+```
+src/main/
 ├── model/              → Classes de domínio (Anime, Pessoa, etc.)  
 ├── controller/         → Lógica de controle e gerenciamento de dados  
 ├── sistema/            → Filtros, buscas e ordenações  
-├── interfaceusuario/   → Interação via console  
+├── interfaceusuario/   → Interação via console
+├── util/               → Ferramentas para gerar e carregar catálogo de exemplo  
 ├── Main.java           → Ponto de entrada da aplicação
-
+```
 ## Funcionalidades
 
 - Listar animes
