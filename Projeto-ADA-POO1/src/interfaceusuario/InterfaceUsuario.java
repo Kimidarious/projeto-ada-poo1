@@ -121,8 +121,13 @@ public class InterfaceUsuario {
             System.out.printf("Média das notas: %.2f%n", media);
             System.out.println("Maior nota: " + animeMaior + " (" + maiorNota + ")");
             System.out.println("Menor nota: " + animeMenor + " (" + menorNota + ")");
+
+            double mediaEpisodios = SistemaBusca.calcularMediaEpisodios(animes);
+            System.out.printf("Média de episódios: %.2f%n", mediaEpisodios);
         }
     }
+
+
 
 
 }
