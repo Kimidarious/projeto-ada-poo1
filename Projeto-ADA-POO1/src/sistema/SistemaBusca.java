@@ -2,6 +2,7 @@
 package sistema;
 
 import model.Anime;
+
 import java.util.Comparator;
 import java.util.List;
 import java.util.Locale;
@@ -17,11 +18,13 @@ public class SistemaBusca {
     }
 
     public static List<Anime> filtrarPorGenero(List<Anime> lista, String genero) {
+        String generoBusca = genero.toLowerCase();
         return lista.stream()
                 .filter(anime -> anime.getGenero() != null &&
-                        anime.getGenero().equalsIgnoreCase(genero))
+                        anime.getGenero().toLowerCase().contains(generoBusca))
                 .collect(Collectors.toList());
     }
+
 
     public static List<Anime> ordenarPorNota(List<Anime> lista) {
         return lista.stream()
@@ -35,4 +38,22 @@ public class SistemaBusca {
                 .average()
                 .orElse(0);
     }
+
+    public static List<Anime> buscarPorDublador(List<Anime> animes, String nomeDublador) {
+        return animes.stream()
+                .filter(anime -> anime.getElenco().stream()
+                        .anyMatch(d -> d.getNome().toLowerCase().contains(nomeDublador.toLowerCase()))
+                )
+                .collect(Collectors.toList());
+    }
+
+    public static List<Anime> buscarPorDiretor(List<Anime> animes, String nomeDiretor) {
+        return animes.stream()
+                .filter(anime -> anime.getDiretor() != null &&
+                        anime.getDiretor().getNome().toLowerCase().contains(nomeDiretor.toLowerCase())
+                )
+                .collect(Collectors.toList());
+    }
+
+
 }
